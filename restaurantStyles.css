@@ -19,8 +19,36 @@ div.color{
     height: 65%;
     width:100%;
     position:absolute;
-    
+}
+
+a {
+    font-family: monospace;
+    text-decoration: none;
+    font-weight: none;
+}
+
+a:link {
+    color:blue;
     
 }
 
+a:visited {
+    color:purple;
+}
 
+a:hover {
+    font-weight: bold;
+   
+}
+
+a:active {
+    font-weight:none;
+}
+
+th {
+    text-align: left;
+}
+
+tbody td {
+    text-align:left;
+}
