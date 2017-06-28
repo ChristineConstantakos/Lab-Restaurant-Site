@@ -16,6 +16,10 @@ h1{
 
 div.color{
     background-color:lightsalmon;
+    height: 65%;
+    width:100%;
+    position:absolute;
+    
     
 }
 
