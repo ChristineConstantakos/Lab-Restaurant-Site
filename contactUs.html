@@ -4,14 +4,14 @@
 
             <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 
 <!-- Optional theme -->
 <link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 </script>
 
       
@@ -26,9 +26,14 @@
             <h1>Christine's Cafe</h1>
             <hr/>
              <p>
-        <a href = "Restaurant.html">Home</a> &nbsp; &nbsp;
-        <a href = "Menu.html">Menu</a> &nbsp; &nbsp;
-        <a href = "contactUs.html">Contact</a>
+
+                 <ul class = "nav nav-tabs">
+                    <li role ="presentations" class = "active">
+                         <a href = "Restaurant.html">Home</a></li>
+                    <li><a href = "Menu.html">Menu</a></li>
+                    <li><a href = "contactUs.html">Contact</a></li>
+                    </br>
+
         <hr/>
 
         </br>
@@ -36,15 +41,16 @@
         <style>
             div {
                 font-weight:bold;
-                display:block;
-                align:center;
-                padding-left:500px;
-            
+                text-align:center;
             }
 
             </style>
 
         </p>
+
+        <div class = "Questions">
+            <div class = "container">
+
         <form action="#" method="post">
             <div = "label">
             <label id="NameLabel" for="Name">Name:</label>
@@ -88,17 +94,36 @@
                 <input type="checkbox" name="day" value="F"/>F</br>
                 </br>
 
+                <center>
+                <input type="submit" name="Send Request" value="Send Request"/>
+                </center>
+                </br>
 
-                <input type="submit" name="Send Request" value="Send Request"/><br/>
-                </div>
+                <div class ="row">
+                    <div class = "col-md-4">
+                        </div>
+
+                        <div class = "col-md-4">
+                        </div>
+
+                        <div class = "col-md-4">
+                        </div>
+
+                        </div>
+                        </div>
+                        </div>
+
 
 
             <footer>
                 <hr>
-            <h5>100 Main St Dover, NH 03820<br/>
+                <center>
+            <h5>100 Main St Dover, NH 03820</h5>
             <br/>
             (603) 555 1212</h5>
-            <hr/>
+                </center>
+            </hr>
+        
             </footer>
 
             

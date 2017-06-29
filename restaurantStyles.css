@@ -1,6 +1,6 @@
 
 footer {
-   position: absolute;
+    position: absolute;
     bottom: 0;
     text-align:center;
     width: 100%;
@@ -19,6 +19,8 @@ div.color{
     height: 65%;
     width:100%;
     position:absolute;
+  
+  
 }
 
 a {
@@ -46,7 +48,7 @@ a:active {
 }
 
 th {
-    text-align: left;
+    text-align:left;
 }
 
 tbody td {
